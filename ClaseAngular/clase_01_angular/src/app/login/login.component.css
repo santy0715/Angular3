@@ -1,0 +1,95 @@
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor_principal {
+  padding: 30px;
+  border-radius: 8px;
+  color: cyan;
+  width: 350px; 
+  cursor: pointer;
+  max-width: 100%;
+}
+.titulo {
+  text-align: center;
+  color: cyan;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.formulario-contenedor {
+  display: flex;  
+  flex-direction: column;
+  width: 100%;
+  color: cyan;
+}
+.formulario-contenedor > div {
+  margin-bottom: 20px;
+}
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: cyan;
+  font-size: 16px;
+}
+.input_usuario,
+.input_contrasena {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: 2px solid cyan;
+  border-radius: 6px;
+  background-color: #000;
+  color: cyan;
+  font-size: 14px;
+}
+.botones {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.inicio,
+.botonRedireccionRegistro,
+.botonRedireccionRecuperacion {
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: cyan;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.inicio {
+  background-color: cyan;
+  margin-bottom: 10px;
+  color: black;
+}
+.inicio:hover {
+  background-color: black;
+  color: cyan;
+}
+.botonRedireccionRegistro,
+.botonRedireccionRecuperacion {
+ 
+  color:cyan ;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.opciones {
+  margin-top: 8px;
+  text-align: center;
+}
+#mensajeInicioSesion {
+  margin-top: 20px;
+  text-align: center;
+  color: cyan;
+  font-size: 20px;
+}

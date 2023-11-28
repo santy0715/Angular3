@@ -1,0 +1,25 @@
+*{
+background-color: black;
+}
+.encabezado{
+    text-align: center;
+    color: cyan;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.tit-datos{
+    margin-top: 80px;
+    margin-left: 130px;
+    font-size: 46px;
+    color: cyan;
+    font-family: 'Arial', sans-serif;
+}
+
+.datos{
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+}

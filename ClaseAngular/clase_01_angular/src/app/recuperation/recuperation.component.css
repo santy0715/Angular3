@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.contenedor_principal {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+.titulo {
+    text-align: center;
+    color: cyan;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.formulario-contenedor {
+    margin-top: 40px;
+    color: cyan;    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.usuario_form,
+.contrasena_form {
+    margin-bottom: 20px;
+}
+.label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: cyan;
+    font-size: 16px;
+}
+.input_usuario,
+.input_contrasena {
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    border: 2px solid cyan;
+    border-radius: 8px;
+    background-color: #000000;
+    color: cyan;
+}
+.botones {
+    margin-top: 20px;
+}
+.inicio {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: cyan;
+    font-size: 16px;
+    font-weight: 34px
+}
+.inicio:hover {
+    background-color: black;
+    color: cyan;
+}
+.opciones{
+    margin-top: 8px;
+    text-align: center;
+
+}
+#mensajeRec{
+    margin-top: 20px;
+    text-align: center;
+    color: cyan;
+}
